@@ -24,3 +24,10 @@ Goal
 Implement a "push and hold" strategy which allows pop dev to start above 5% (avoiding the error) and gradually "pushes" it down to 5% rejecting any proposal that increases pop dev.  Once it drops below 5%, the chain switches to "hold" it below 5%.
 
 Good luck!!
+
+
+Hints 6/7:
+I suggest looking at the two links below.  Specifically, I think that "class SelfConfiguringUpperBound" and "class WithinPercentRangeOfBounds" have the functionality we need if combined cleverly.  I just got back this afternoon, so haven't had time to put together a complete solution, but I think this is a good direction to try.
+
+https://gerrychain.readthedocs.io/en/latest/user/recom.html#constraints
+https://github.com/mggg/GerryChain/blob/main/gerrychain/constraints/bounds.py
